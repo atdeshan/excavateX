@@ -1,0 +1,33 @@
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 3em;
+}
+.about-container h1 {
+  font-size: 5em;
+  font-weight: 700;
+  color: #ff8800;
+  margin-bottom: 2rem;
+}
+
+.about-container h2 {
+  font-size: 3em;
+  color: #f6a504;
+  margin-bottom: 2rem;
+}
+
+.about-container p {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.about-container ul{
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}

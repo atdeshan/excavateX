@@ -1,0 +1,154 @@
+.home {
+    display: flex;
+    flex-direction: column; /* Default to column */
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+    
+    
+}
+
+.title {
+    width: 100%;
+    
+    display: flex;
+    
+    
+    font-size: 5rem;
+    font-weight: 700;
+
+    color: #ff9d00;
+    
+    
+    
+    /* Remove fixed height */
+}
+.title h1{
+    text-align: start;
+}
+
+.home_main {
+    display: flex;
+    flex-direction: row; /* Default to row */
+    justify-content:center;
+    align-items: center;
+    width: 100%; /* Ensure full width */
+    
+    
+    /* Remove fixed height */
+}
+
+.canvas-container {
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 80vh;
+    z-index: 1;
+    
+    /* Remove fixed height */
+}
+@media (max-width: 768px) {
+    .canvas-container {
+        display: none;
+    }
+}
+
+.description {
+    width: 35%;
+    
+    /* Remove fixed height */
+}
+
+.description h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #f28b03;
+    margin-bottom: 2rem;
+}
+
+.description p {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.services {
+    margin-top: 5em;
+    font-family: Arial, sans-serif;
+    background-color: transparent; /* Corrected typo */
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(248, 247, 247, 0.1);
+    width: 100%;
+    max-width: 90vw;
+    
+}
+
+.services h1 {
+    text-align: center;
+    color: #fa7b04;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    background-color: transparent; /* Corrected typo */
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(244, 244, 244, 0.1);
+}
+
+.service-item b {
+    display: block;
+    color: #f3b90b;
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+.service-item p {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+/* ... (rest of your pricing table CSS) */
+
+@media (max-width: 768px) {
+    .home {
+        padding-top: 2em;
+        overflow-x: hidden;
+    }
+
+    .title {
+        font-size: 2rem;
+        /* Remove fixed height */
+    }
+
+    .home_main {
+        flex-direction: column; /* Stack elements vertically */
+        /* Remove fixed height */
+    }
+
+    .canvas-container {
+        width: 100%;
+        /* Remove fixed height */
+    }
+   
+
+    .description {
+        width: 100%;
+        /* Remove fixed height */
+    }
+
+    .description h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .haptic_view {
+        width: 100%;
+        /* Remove fixed height */
+    }
+}
