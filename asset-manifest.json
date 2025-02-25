@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/excavatex/static/css/main.1c699c3f.css",
-    "main.js": "/excavatex/static/js/main.67ba244c.js",
-    "static/js/453.bc37ad24.chunk.js": "/excavatex/static/js/453.bc37ad24.chunk.js",
-    "index.html": "/excavatex/index.html",
-    "main.1c699c3f.css.map": "/excavatex/static/css/main.1c699c3f.css.map",
-    "main.67ba244c.js.map": "/excavatex/static/js/main.67ba244c.js.map",
-    "453.bc37ad24.chunk.js.map": "/excavatex/static/js/453.bc37ad24.chunk.js.map"
+    "main.css": "/static/css/main.1c699c3f.css",
+    "main.js": "/static/js/main.db5bc08d.js",
+    "static/js/453.bc37ad24.chunk.js": "/static/js/453.bc37ad24.chunk.js",
+    "index.html": "/index.html",
+    "main.1c699c3f.css.map": "/static/css/main.1c699c3f.css.map",
+    "main.db5bc08d.js.map": "/static/js/main.db5bc08d.js.map",
+    "453.bc37ad24.chunk.js.map": "/static/js/453.bc37ad24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c699c3f.css",
-    "static/js/main.67ba244c.js"
+    "static/js/main.db5bc08d.js"
   ]
 }
