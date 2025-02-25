@@ -2,7 +2,7 @@
   "name": "excavatex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://atdeshan.github.io/excavatex",
+  "homepage": "https://excavatex.com",
   "dependencies": {
     "@react-three/fiber": "^9.0.4",
     "@testing-library/dom": "^10.4.0",
